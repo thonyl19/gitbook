@@ -1,8 +1,8 @@
 module.exports = {
     title: 'MyGitBook',
     description: 'MyGitBook',
-    base: '/mygitbook/',
-    repo: 'https://github.com/thonyl19/mygitbook',
+    base: '/gitbook/',
+    repo: 'https://https://github.com/thonyl19/gitbook',
     themeConfig: {
       sidebarDepth: 0,
       sidebar: [
