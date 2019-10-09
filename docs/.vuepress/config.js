@@ -1,7 +1,7 @@
 module.exports = {
     locales: {
       '/':{
-        lang:'zh-cn'
+        lang:'zh-cn' 
       }
     },
     title: 'Anthony - GitBook',
