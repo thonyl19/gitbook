@@ -23,7 +23,7 @@ let themeConfig_ououe = {
 }
 
 let themeConfig_ououe_head = [
-  ['link', { rel: 'icon', href: 'favicon.ico' }],
+  ['link', { rel: 'icon', href: '/gitbook/favicon.ico' }],
   ['meta', { 'http-equiv': 'X-UA-Compatible', content: 'IE=edge,chrome=1' }],
   ['meta', { name: 'renderer', content: 'webkit' }],
   ['meta', { name: 'force-rendering', content: 'webkit' }],
