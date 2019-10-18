@@ -1,7 +1,7 @@
 let themeConfig_ououe = {
     showThemeButton: false,
     cover: 'https://picsum.photos/id/830/1920/1080',
-    //logo: 'https://picsum.photos/1920/1080/?random&date=2019-02-22',
+    //logo: "test",
     search: true,
     backgroundImage: false,
     pageGroup: 5,
@@ -10,7 +10,7 @@ let themeConfig_ououe = {
       lastUpdated: 'Last Updated'
     },
     nav: [
-      { text: 'Home', link: '/' },
+      { text: "Anthony' GitBook", link: '/' },
       { text: 'Posts', link: '/posts/' },
       { text: 'Doc', link: '/doc/' },
       { text: 'Tags', link: '/tag/' },
@@ -59,34 +59,25 @@ let themeConfig_old ={
     }
 
 module.exports = {
-  // '@vuepress/back-to-top': true,
-  //   '@vuepress/medium-zoom': true,
-  //   '@vuepress/pwa': {
-  //            serviceWorker: true,
-  //             popupComponent: 'MySWUpdatePopup',
-  //             updatePopup: {
-  //             message: "啦啦啦,一大波内容已更新!",
-  //             buttonText: "朕知道了"
-  //           }
-  //         },
-
     locales: {
       '/':{
         lang:'zh-cn' 
       }
     },
-    title: 'Anthony - GitBook',
-    description: 'Anthony GitBook',
+    title: '學得多不重要,記得住才是自己的',
+    description: '記不住咋辦,只好乖乖的寫筆記囉',
     base: '/gitbook/',
-    //base: '/',
-    //dest: 'dist/',
     evergreen: true,
     repo: 'https://github.com/thonyl19/gitbook',
     theme: 'ououe',
     head:themeConfig_ououe_head,
     themeConfig: themeConfig_ououe,
-    plugins: ['@vuepress/pwa',{
-      serviceWorker: true,
-      updatePopup: true
-    }],
+    plugins: [['@vuepress/pwa',{
+        updatePopup: {
+          message: '發現新内容可用',
+          buttonText: '刷新'
+        }
+      }],
+      //['@theme/Footer', false]
+    ]
   }
