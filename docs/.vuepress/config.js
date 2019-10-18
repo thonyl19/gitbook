@@ -10,7 +10,7 @@ let themeConfig_ououe = {
       lastUpdated: 'Last Updated'
     },
     nav: [
-      { text: "Anthony' GitBook", link: '/' },
+      { text: "Anthony's GitBook", link: '/' },
       { text: 'Posts', link: '/posts/' },
       { text: 'Doc', link: '/doc/' },
       { text: 'Tags', link: '/tag/' },
