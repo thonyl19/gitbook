@@ -23,14 +23,14 @@ let themeConfig_ououe = {
 }
 
 let themeConfig_ououe_head = [
-  ['link', { rel: 'icon', href: '/gitbook/favicon.ico' }],
+  ['link', { rel: 'icon', href: 'favicon.ico' }],
   ['meta', { 'http-equiv': 'X-UA-Compatible', content: 'IE=edge,chrome=1' }],
   ['meta', { name: 'renderer', content: 'webkit' }],
   ['meta', { name: 'force-rendering', content: 'webkit' }],
   ['meta', { name: 'applicable-device', content: 'pc,mobile' }],
   ['meta', { name: 'author', content: 'Anthony<a0982830615@gmail.com>' }],
   ['meta', { name: 'copyright', content: '網站內容版權所有，轉載請註明出處' }],
-  ['meta', { name: "keywords", content: "m-less, less, mixins, 常用 mixins 文件, mixins 总结, mixins 整理, less 总结整理, less 技巧, css 简写, ououe, 雨无声, tolking, 前端技巧, 前端总结, 前端分享, ououe.com" }]
+  //['meta', { name: "keywords", content: "m-less, less, mixins, 常用 mixins 文件, mixins 总结, mixins 整理, less 总结整理, less 技巧, css 简写, ououe, tolking, 前端技巧, 前端总结, 前端分享, ououe.com" }]
   
 ]
 
